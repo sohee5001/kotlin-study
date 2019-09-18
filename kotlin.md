@@ -22,15 +22,10 @@
 * 컴파일러가Getter/setter 생성 |* 상수 변수 선언시 사용. 자바에서는 final 사용.  
   | * 컴파일러가 getter만 생성
   
-  | | Kotlin | Java    
-|:--- |:---|:----
- 함수 작성방법 | fun 함수명(변수명 : 변수타입) : 반환값타입 = return 값 |  접근제어자  반환값타입 함수명(변수타입  변수명){ return 값 }
- 기초 타입 | X(기초타입 존재 안함. Int,Double 클래스 타입으로 명시) | O(int, double등 기초타입 존재)
-final | X(사용안함. 상수변수 선언시 val 사용)  | O(상수변수 선언시 예약어) 
-Object타입 | Any | Object  
-;(세미콜론 사용여부)| 필수 아님  | 필수
-데이터 타입 체크 | is | instanceOf
-Directory & package 구조 | -  Class이름이 파일 이름과 달라도 된다.<br>- package 구조는 directory 구조와 동일하지 않아도 된다.<br>(즉, 파일의 위치가 다르더라도 package를 동일하게 선언하면 다른 파일에 선언한 정의 사용 가능. + 다른 패키지도 import하면 접근가능.) | - Class 이름이 java 파일의 이름이 되어야 한다.<br>  - package 구조는 directory 구조와 동일해야한다.   
+  
+  | test | test |
+  |:---:|:---:|
+  |aaaa|aaaa|
   
     
 - 배열 생성 <br>
