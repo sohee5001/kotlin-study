@@ -22,11 +22,6 @@
 |* 컴파일러가Getter/setter 생성 |* 상수 변수 선언시 사용. 자바에서는 final 사용.  |
 | | * 컴파일러가 getter만 생성|
   
-  
-  | test | test |
-  |:---:|:---:|
-  |aaaa|aaaa|
-  
     
 - 배열 생성 <br>
  	 - default : ArrayOf(11,22,33,44)
