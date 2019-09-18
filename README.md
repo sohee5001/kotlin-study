@@ -3,15 +3,23 @@
  
  ## 1. Kotlin 장점
 
-1.  Nullable 안전성<br> 
+1.  Nullable 안전성 : 컴파일러가 초기화되지 않은것들의 사용을 막음. NullPoint Exception에 안전<br> 
     ```kotlin
      Ex) fun test(a : String) : String? = a
       // a 값이 null인 경우 에러 발생. Nullable 허용하려면 변수타입에 ? 붙여줘야됨.
     ```
-     
-2.  Vararg(가변 인수) 선언으로 오버라이딩 메소드 로직 감소.
+    
+2. Functions 상속 : 클래스에 상속하거나 사용하지 않고도 기능을 추가할 수 있음.
 
-3.  코드의 간결화.
+3. JVM에서 실행되기 때문에 자바코드와 호환이 가능.
+
+4. 람다식 표현식 사용 가능.
+
+5. Data classes : 클래스를 싱글라인으로 모든 속성과 함께 선언 가능. 컴파일러가 getter/setter 자동 생성해줌.
+
+6. Vararg(가변 인수) 선언으로 오버라이딩 메소드 로직 감소.
+
+7. Type aliases :  기존 타입에 대한 대체할 수 있는 이름을 제공.
  
  ## 2. Kotlin 특징
  
