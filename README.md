@@ -84,7 +84,7 @@
 
 
      
- ## 3. Kotlin vs Java
+ ## 3. Kotlin vs Java 비교
   | | Kotlin | Java    
 |:--- |:---|:----
  함수 작성방법 | fun 함수명(변수명 : 변수타입) : 반환값타입 = return 값 |  접근제어자  반환값타입 함수명(변수타입  변수명){ return 값 }
