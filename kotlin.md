@@ -46,11 +46,9 @@
         ```
     
 - arrayOf vs arrayListOf vs listOf 차이점 <br>
-    ``` kotlin
-      arrayOf : 특정 원소를 담고 있는 배열  (배열의 크기 변경 불가 , 수정 가능)
-      arrayListOf : 인자로 받은 자식값을 요소로 하는 arrayList를 반환 (가변 배열.)
-      listOf : 포함하는 요소를 읽을수 있고 , 수정 불가. (불변 배열)
-    ```
+   -  arrayOf : 특정 원소를 담고 있는 배열  (배열의 크기 변경 불가 , 수정 가능) <br>
+   - arrayListOf : 인자로 받은 자식값을 요소로 하는 arrayList를 반환 (가변 배열.)<br>
+   -  listOf : 포함하는 요소를 읽을수 있고 , 수정 불가. (불변 배열)
     
 - 형변환  :  toXXX()
     ```kotlin
