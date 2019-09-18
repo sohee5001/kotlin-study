@@ -65,13 +65,13 @@
     a. 문자열 템플릿 개념으로 문자열 내에 변수의 데이터나 특정 연산식 결과에 의한 데이터를 $기호로 쉽게 포함 가능.<br>
     ```kotlin
 	     Ex) val a : Int = 5
-          println("a값은 ${a}")  
+             println("a값은 ${a}")  
     ```
     b.  escaped String : ""(큰따옴표)  , raw String :  """(큰따옴표 세개)로 묶어서 표현시 키보드에서 입력한 엔터 등의 값이 문자열 그대로 적용. 
     ```kotlin
 	     Ex) val str2 = "test \n Enter" 
-		        val str3 = """Hello
-                           Wrold"""
+		 val str3 = """Hello
+                                  Wrold"""
     ``` 
     
      
